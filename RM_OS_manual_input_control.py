@@ -221,9 +221,9 @@ if __name__ == "__main__":
         elif init_command == "sound":
             s_c = input("Choose sound (bomb/allah/mexican)")
             if s_c == "bomb":
-                ep_robot.play_audio(filename="bomb_countdown.wav").wait_for_completed()
+                ep_robot.play_audio(filename="countdown.wav").wait_for_completed()
             elif s_c == "allah":
-                ep_robot.play_audio(filename="allahu_akbar.wav").wait_for_completed()
+                ep_robot.play_audio(filename="warnung.wav").wait_for_completed()
             elif s_c == "mexican":
                 ep_robot.play_audio(filename="mexican_hat_dance.wav").wait_for_completed()
             else:
