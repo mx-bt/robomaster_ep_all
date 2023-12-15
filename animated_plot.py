@@ -8,7 +8,7 @@ plt.style.use("fivethirtyeight")
 
 def animate(i):
     try:
-        data = pd.read_csv(r"C:\Users\Max\Documents\MOM\ws2324\ICT\xy_data.csv")
+        data = pd.read_csv(r"data.csv")
 
         y = data["x_value"]
         x = data["y_value"]
